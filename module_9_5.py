@@ -25,9 +25,7 @@ class Iterator:
         raise StopIteration()
 
 class StepValueError(Exception):
-
-    def __init__(self):
-        return
+    pass
 
 try:
     iter1 = Iterator(100, 200, 0)
